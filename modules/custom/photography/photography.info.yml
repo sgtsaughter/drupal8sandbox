@@ -1,0 +1,7 @@
+name: Photography
+type: module
+description: Custom photo gallery and order form
+core: 8.x
+package: Custom
+dependencies:
+  - node

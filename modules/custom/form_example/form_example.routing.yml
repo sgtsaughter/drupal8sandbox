@@ -1,0 +1,8 @@
+
+form_example.form_example_controller_formCreator:
+  path: '/form-example'
+  defaults:
+    _controller: '\Drupal\form_example\Controller\FormExampleController::formCreator'
+    _title: 'Form Example'
+  requirements:
+    _permission: 'access content'

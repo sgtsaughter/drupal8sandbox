@@ -1,0 +1,7 @@
+photography.page:
+  title: 'Photography'
+  description: 'This is the photography page'
+  route_name: photography.gallery_controller_gallery
+  weight: 100
+  #If menu_name is omitted, the "Tools" menu will be used.
+  menu_name: main

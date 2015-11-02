@@ -1,0 +1,7 @@
+form_example.page:
+  title: 'Form Example'
+  description: 'This is the Form Example page'
+  route_name: form_example.form_example_controller_formCreator
+  weight: 101
+  #If menu_name is omitted, the "Tools" menu will be used.
+  menu_name: main
