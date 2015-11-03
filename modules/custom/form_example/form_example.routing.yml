@@ -6,3 +6,12 @@ form_example.form_example_controller_formCreator:
     _title: 'Form Example'
   requirements:
     _permission: 'access content'
+
+form_example.config_form:
+  path: '/admin/config/form_example/config'
+  defaults:
+    _form: '\Drupal\form_example\Form\ConfigForm'
+    _title: 'ConfigForm'
+  requirements:
+    _permission: 'access administration pages'
+
