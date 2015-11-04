@@ -5,3 +5,11 @@ form_example.page:
   weight: 101
   #If menu_name is omitted, the "Tools" menu will be used.
   menu_name: main
+
+  form_example.admin_page:
+    title: 'Admin Config Form'
+    description: 'Shortcut to admin config form'
+    route_name: form_example.config_form
+    weight: 102
+    #If menu_name is omitted, the "Tools" menu will be used.
+    menu_name: main
